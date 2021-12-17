@@ -1,0 +1,33 @@
+{
+  "name": "softenh-dark-theme",
+  "displayName": "Softenh Dark Theme",
+  "description": "Dark theme with soft color scheme",
+  "version": "1.0.0",
+  "publisher": "webdb81",
+  "license": "MIT",
+  "icon": "icon.png",
+  "engines": {
+    "vscode": "^1.15.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark",
+    "soft"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/webdb81/vscode-softenh-dark-theme"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Softenh Dark Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/softenh-dark-theme.json"
+      }
+    ]
+  }
+}
